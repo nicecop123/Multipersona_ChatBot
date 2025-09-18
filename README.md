@@ -36,7 +36,7 @@ Before you begin, ensure you have the following installed:
     ```bash
     python -m venv venv
     source venv/bin/activate  
-    # On Windows, use `venv\Scripts\activate`
+    #on Windows, use 'venv\scripts\activate'
     ```
 
 3.  **Install the required packages:**
@@ -45,8 +45,8 @@ Before you begin, ensure you have the following installed:
     ```
 
 ### ⚙️ Configuration
-
-This application requires an API key from Google's Gemini Pro API.
+>[!IMPORTANT]
+>This application requires an API key from Google's Gemini Pro API.
 
 1.  **Obtain your API Key:**
     - Go to the [Google AI Studio](https://aistudio.google.com/app/apikey) and create a new API key.
@@ -58,7 +58,7 @@ This application requires an API key from Google's Gemini Pro API.
       GOOGLE_API_KEY="your_api_key_here"
       ```
 
- ### 💻 Usage
+ ### Usage
 
 To run the Streamlit application, execute the following command from the project's root directory:
 
@@ -70,6 +70,8 @@ Once the application is running, you can interact with it in your web browser:
 
 - Select a Persona: On the left-hand side, you'll see a sidebar with a dropdown menu labeled "Select a persona:". Choose one of the available personalities from the list.
 
-- Switch Personas: After selecting a new persona from the dropdown, it's crucial to click the "Switch Persona" button located directly below it. This will reload the app with the new persona's settings, including a fresh conversation history, unique title, and dynamic UI elements.
+> [!IMPORTANT]
+>- Switch Personas: After selecting a new persona from the dropdown, it's crucial to click the "Switch Persona" button located directly below it. This will reload the app with the new persona's settings, including a fresh conversation history, unique title, and dynamic UI elements.
 
 - Chat with the Bot: The main window will display the chat interface. Type your message into the chat input box at the bottom and press enter. The chatbot will respond in its selected persona.
+
