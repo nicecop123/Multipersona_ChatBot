@@ -17,8 +17,6 @@ A multi-persona chatbot built with Streamlit and the Google Gemini API. The app 
 
 ### 🚀 Getting Started
 
-To get a copy of this project up and running on your local machine, follow these simple steps.
-
 #### Prerequisites
 
 Before you begin, ensure you have the following installed:
@@ -67,3 +65,11 @@ To run the Streamlit application, execute the following command from the project
 ```bash
 streamlit run app.py
 ```
+
+Once the application is running, you can interact with it in your web browser:
+
+- Select a Persona: On the left-hand side, you'll see a sidebar with a dropdown menu labeled "Select a persona:". Choose one of the available personalities from the list.
+
+- Switch Personas: After selecting a new persona from the dropdown, it's crucial to click the "Switch Persona" button located directly below it. This will reload the app with the new persona's settings, including a fresh conversation history, unique title, and dynamic UI elements.
+
+- Chat with the Bot: The main window will display the chat interface. Type your message into the chat input box at the bottom and press enter. The chatbot will respond in its selected persona.
